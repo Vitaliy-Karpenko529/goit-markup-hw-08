@@ -17,8 +17,8 @@
  <!--Секция главной навигации-->
 <header class="header">
     <div class="container header-container">
+    <a class="nav__logo link" href="./index.html">Web<span class="nav__studio">Studio</span> </a>
     <nav class="nav">
-                <a class="nav__logo link" href="./index.html">Web<span class="nav__studio">Studio</span> </a>
         <ul class="nav__list lst nav__list_margin">
             <li class="nav__item">
                 <a class="nav__link current link" href="./index.html">Студия</a>
@@ -31,10 +31,43 @@
             </li>
         </ul>
     </nav>
+    <button class="header__burger-btn" type="mobile-button">
+        <svg class="header__burger-icon"> 
+            <use href="./images/svg-img/sprite.svg#icon-burger-menu"></use>
+        </svg>
+    </button>
+    <div class="mobile__menu">
+        <div class="container mobile__menu-container">
+                    <button class="mobile__close" type="mobile-button" data-modal-close>
+                        <svg class="mobile__close-icon">
+                            <use href="./images/svg-img/sprite.svg#icon-close-btn"></use>
+                        </svg>
+                    </button>
+            <ul class="mobile__nav-list lst">
+                <li class="mobile__nav-item">
+                    <a class="mobile__nav-link current link" href="./index.html">Студия</a>
+                </li>
+                <li class="mobile__nav-item">
+                    <a class="mobile__nav-link link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="mobile__nav-item">
+                    <a class="mobile__nav-link link" href="">Контакты</a>
+                </li>
+            </ul>
+            <ul class="mobile__contacts-list lst">
+                <li class="mobile__contacts-item">
+                    <a class="mobile__contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
+                <li class="mobile__contacts-item">
+                    <a class="mobile__contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <!--Контакты-->
     <ul class="contacts__list lst">
         <li class="contacts__item">
-            <a class="contacts__link link" href="mailto:nfo@devstudio.com">
+            <a class="contacts__info link" href="mailto:info@devstudio.com">
         <svg class="contacts__icon" width="16px" height="16px">
             <use href="./images/svg-img/sprite.svg#icon-messege"></use>
         </svg>info@devstudio.com</a>
@@ -49,15 +82,15 @@
     </div>
 </header>
 <!--Секция заказа услуги-->
-   <main class="main-content">
+   <!-- <main class="main-content">
        <section class="hero">
            <div class="container hero-container">
            <h1 class="hero__title">Эффективные решения<br /> для вашего бизнеса</h1>
         <button class="modal__button" type="button" data-modal-open >Заказать услугу</button>
         </div>
-       </section>
+       </section> -->
 <!--Секция навыков-->
-   <section class="section">
+   <!-- <section class="section">
        <div class="container">
        <h2 class="visually-hidden">Секция навыков</h2>
        <ul class="skills__list lst">
@@ -99,9 +132,9 @@
            </li>
        </ul>
     </div>
-   </section>
+   </section> -->
 <!--Секция услуг-->
-<section class="section__services">
+<!-- <section class="section__services">
     <div class="container">
             <h2  class="section__title">Чем мы занимаемся</h2>
             <ul class="services__list lst">
@@ -125,9 +158,9 @@
         </li>
     </ul>
     </div>
-</section>
+</section> -->
 <!--Секция команда-->
-<section class="team">
+<!-- <section class="team">
     <div class="container">
     <h2 class="section__title">Наша команда</h2>
     <ul class="team__list lst">
@@ -281,9 +314,9 @@
         </li>
     </ul>
     </div>
-</section>
+</section> -->
 <!--Постоянные клиенты-->
-<section class="clients ">
+<!-- <section class="clients ">
 <div class="container clients-container">
     <h2 class="section__title">Постоянные клиенты</h2>
 <ul class="clients__list lst">
@@ -332,9 +365,9 @@
 </ul>
 </div>
 </section>
-</main>
+</main> -->
 <!--Футер-->
-<footer class="footer">
+<!-- <footer class="footer">
     <div class=" container footer__main-container">
     <div class=" footer__contacts-wrapper">
     <ul class="logo lst">
@@ -355,9 +388,9 @@
             </li>
         </ul>
     </address>
-    </div>
+    </div> -->
     <!--Соц-сети-->
-    <div class=" footer__social-wrapper">
+    <!-- <div class=" footer__social-wrapper">
         <h2 class="footer__social-title">присоединяйтесь</h2>
         <ul class="footer__social-list lst">
             <li class="footer__social-item">
@@ -402,7 +435,7 @@
         </form>
     </div>
     </div>
-</footer>
+</footer> -->
 <!-- Модальное окно -->
 <div class="modal__backdrop is-hidden" data-modal>
     <div class="modal__window">
