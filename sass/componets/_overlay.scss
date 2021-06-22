@@ -1,0 +1,17 @@
+.overlay{
+font-weight:400;
+font-size: 18px;
+line-height: 1.55;
+letter-spacing: 0.03em;
+color:var(--primary-navigation-color);
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height: 100%;
+padding: 63px 24px;
+background-color:var(--overlay-bg);
+overflow: auto;
+transform: translateY(100%);
+transition: transform  var(--duration) var(--timing-function);
+}
