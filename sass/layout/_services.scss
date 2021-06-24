@@ -1,4 +1,11 @@
-.section__services{
+@media screen and (max-width: 1199px){
+    .section__services{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .section__services{
     padding-bottom: 90px;
 }
 .services__list{
@@ -27,4 +34,5 @@ height: 70px;
 color: var(--primary-navigation-color);
 padding: 27px 82px;
 background-color:var(--services-overlay-bg);
+}
 }
