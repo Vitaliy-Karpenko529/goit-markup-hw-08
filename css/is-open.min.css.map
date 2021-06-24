@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACP,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,OAAO,CACnB,cAAc,CAAE,IAAI,CACrB",
+    "sources": [
+        "../sass/utils/is-open.scss"
+    ],
+    "names": [],
+    "file": "is-open.min.css"
+}
