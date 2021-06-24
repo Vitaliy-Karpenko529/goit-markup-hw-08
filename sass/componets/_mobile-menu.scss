@@ -1,4 +1,5 @@
-.mobile__menu{
+@media screen and (max-width:767px){
+    .mobile__menu{
     position: fixed;
     top: 0;
     left: 0;
@@ -106,3 +107,10 @@ transition: fill var(--duration) var(--timing-function);
         border: 1px solid rgba(33, 33, 33, 0.2);
         height: 22px;
     }
+}
+
+@media screen and (min-width:768px){
+    .mobile__menu{
+        display: none;
+    }
+}
