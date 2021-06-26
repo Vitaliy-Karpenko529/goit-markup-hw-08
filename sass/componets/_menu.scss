@@ -1,12 +1,12 @@
 .menu__list{
     display: flex;
-    margin-bottom: 50px;
-    justify-content: center;
+    margin-bottom: 40px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .menu__item{
-&:not(:last-child){
-        margin-right: 8px;
-}
+margin-right: 8px;
+margin-bottom: 15px;
 }
 
 .everything{
@@ -50,4 +50,21 @@ border: 1px solid var(--background-color-section);
     border: 1px solid var(--akcent-color);
 }
 }
+@media screen and (min-width:768px){
+    .menu__list{
+        margin-left: unset;
+        margin-bottom: 30px;
+        margin-top: unset;
+        flex-wrap: unset;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu__item{
+&:not(:last-child){
+    margin-right: 8px;
+}
+    }
+}
+
 

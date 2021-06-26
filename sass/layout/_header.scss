@@ -19,14 +19,21 @@
         fill: #211221;
     }
 
+     &__burger-icon:hover,
+      &__burger-icon:focus{
+          fill:var(--akcent-color);
+      }
+
     &-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 }
+
+
+
 .nav__logo{
     font-family: var(--secondery-font);
     font-weight: 700;
