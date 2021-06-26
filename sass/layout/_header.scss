@@ -60,6 +60,7 @@
 
 @media screen and (min-width:768px){
     .header{
+        padding-bottom: unset;
         &__burger-btn{
             display: none;
         }
@@ -125,8 +126,8 @@
 }
 .contacts__list{
         margin-left: auto;
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding-top: 6px;
+        padding-bottom:unset;
 
         & a{
         display: flex;
@@ -141,7 +142,7 @@
         }
         }
 
-        .contacts__item{
+        .contacts__item:not(:last-child){
     margin-right: 15px;
     margin-bottom: 10px;
        }
@@ -158,6 +159,7 @@
             color: var(--akcent-color);
                }
             }
+
 }
 @media screen and (min-width:1200px){
     .header{

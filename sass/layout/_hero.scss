@@ -3,11 +3,10 @@
     background-color: var(--hero-background-color);
     padding-top: 118px;
     padding-bottom: 118px;
-    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)), url(/images/webstudio/photo-mob-1x.jpg);
+    rgba(47, 48, 58, 0.4)), url(../images/webstudio/photo-mob-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -18,7 +17,7 @@
   (min-resolution: 2dppx) {
   .hero {
 background-image:linear-gradient(rgba(47, 48, 58, 0.4),
- rgba(47, 48, 58, 0.4)), url(/images/webstudio/photo-mob@2x.jpg);
+ rgba(47, 48, 58, 0.4)), url(../images/webstudio/photo-mob@2x.jpg);
   }
 }
 .hero-container{
@@ -38,9 +37,8 @@ color: var(--primary-navigation-color);
 
 @media screen and (min-width:768px){
         .hero{
-    max-width: 768px;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)), url(/images/webstudio/photo-tabl-1x.jpg);
+    rgba(47, 48, 58, 0.4)), url(../images/webstudio/photo-tabl-1x.jpg);
 
 }
 
@@ -49,7 +47,7 @@ color: var(--primary-navigation-color);
   (min-resolution: 2dppx) {
   .hero {
 background-image:linear-gradient(rgba(47, 48, 58, 0.4),
- rgba(47, 48, 58, 0.4)), url(/images/webstudio/photo-tabl@2x.jpg);
+ rgba(47, 48, 58, 0.4)), url(../images/webstudio/photo-tabl@2x.jpg);
   }
 }
 
@@ -62,7 +60,7 @@ background-image:linear-gradient(rgba(47, 48, 58, 0.4),
     padding-bottom: 200px;
     max-width: 1600px;
     background-image:linear-gradient(rgba(47, 48, 58, 0.4),
-    rgba(47, 48, 58, 0.4)), url(/images/webstudio/photo.jpg);
+    rgba(47, 48, 58, 0.4)), url(../images/webstudio/photo.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -70,7 +68,7 @@ background-image:linear-gradient(rgba(47, 48, 58, 0.4),
   (min-resolution: 2dppx) {
   .hero {
 background-image:linear-gradient(rgba(47, 48, 58, 0.4),
- rgba(47, 48, 58, 0.4)), url(/images/webstudio/photo@2x.jpg);
+ rgba(47, 48, 58, 0.4)), url(../mages/webstudio/photo@2x.jpg);
   }
 }
     .hero-container{
