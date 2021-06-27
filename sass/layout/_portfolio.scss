@@ -41,6 +41,9 @@ letter-spacing: 0.03em;
 color: var(--primary-description-color);
 }
 
+.portfolio__photo{
+    width:100%;
+}
 
 @media screen and (min-width:768px){
     .photo__list{
