@@ -42,7 +42,8 @@ color: var(--primary-description-color);
 }
 
 .portfolio__photo{
-    width:100%;
+   max-width:100%;
+   height: auto;
 }
 
 @media screen and (min-width:768px){
