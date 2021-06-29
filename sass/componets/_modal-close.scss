@@ -1,6 +1,6 @@
 .modal__close{
 position: absolute;
-top:8px;
+top:26px;
 right: 9px;
 display: flex;
 width: 30px;
@@ -17,4 +17,9 @@ transition:  var(--duration) var(--timing-function);
 .modal__close:hover,
 .modal__close:focus{
     fill:var(--akcent-color);
+}
+@media screen and (min-width:480px){
+    .modal__close{
+       top:8px; 
+    }
 }
